@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNGx</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <h2 class="logo">Chibuzo's Blog</h2>
+    </header>
+
+    <main class="container">
+        
+        <div class="details">
+            <div class="img">
+                <img src="/assets/file300x300.jpg" alt="" data-testid="slackProfilePicture">
+            </div>
+            <div class="detailMeta">
+                <h3 data-testid="slackDisplayName">Chibuzo Ekwue</h3>
+                <h3 data-testid="slackEmail">chieezy5@gmail.com</h3>
+                <h3 data-testid="currentTimeUTC" id="currentTime"></h3>
+                <h3 data-testid="currentDay" id="dayOfTheWeek"></h3>
+            </div>
+        </div>
+
+        <div class="goals">
+
+            <h2>My Short term goals (2 years) in tech</h2>
+
+            <div class="goalContainer">
+                <p>Work on personal or collaborative projects to apply your skills and build a
+                    portfolio.</p>
+                <div class="progress" style="width:20%;"></div>
+            </div>
+
+            <div class="goalContainer">
+                <p>Get to the HNGx finishing line</p>
+                <div class="progress" style="width:10%;"></div>
+            </div>
+
+            <div class="goalContainer">
+                <p>Set goals for advancing in your current job or moving to a more challenging role</p>
+                <div class="progress" style="width:40%;"></div>
+            </div>
+
+            <div class="goalContainer">
+                <p>Get my masters in software engineering</p>
+                <div class="progress" style="width:0%;"></div>
+            </div>
+
+            <div class="goalContainer">
+                <p>Obtain industry certifications to validate your skills and enhance your credibility</p>
+                <div class="progress" style="width:40%;"></div>
+            </div>
+
+            <div class="goalContainer">
+                <p>Start my software dev company</p>
+                <div class="progress" style="width:10%;"></div>
+            </div>
+
+            <div class="goalContainer">
+                <p>Postion myself to train others in tech</p>
+                <div class="progress" style="width:50%;"></div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <a data-testid="hngLink" href="https://hng.tech/learn">HNG</a>
+        <a data-testid="keywordLink" href="https://keyword.dog">Keyword</a>
+        <a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site">Scrape</a>
+    </footer>
+</body>
+<script src='/app.js'></script>
+
+</html>

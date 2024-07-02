@@ -1,0 +1,126 @@
+/* css reset */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #D6EFD8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo {
+    font-weight: 400;
+    color: #1A5319;
+}
+
+.details {
+    margin-top: 30px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.img {}
+
+.detailMeta {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: white;
+    padding: 10px;
+    width: 80%;
+    height: max-content;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 800px) {
+    .details {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.detailMeta h3 {
+    font-weight: 400;
+    color: #1A5319;
+}
+
+.goals {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: max-content;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.goals h2 {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.goalContainer {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: rgba(80, 141, 78, 0.3);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.goalContainer p {
+    text-align: center;
+    font-weight: 400;
+    color: #1A5319;
+}
+
+.footer {
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer a {
+    font-weight: 400;
+    color: #1A5319;
+    text-decoration: none;
+}
